@@ -197,10 +197,21 @@ body {
 .paragraph-1 {
   padding: 16px 0 25px 0 !important;
 }
+.section-d {
+  padding: 5rem 0;
+}
+.covid_container {
+  padding-top: 50px;
+}
 .center_text {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.center-paragraph {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
 }
 .covid_item {
   max-width: 95%;
