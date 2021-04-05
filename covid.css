@@ -54,7 +54,7 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
-.button_less-than {
+.button-position-1 {
   top: 50%;
   position: absolute;
   cursor: pointer;
@@ -84,7 +84,7 @@ body {
   margin: 0;
   font-size: 90px;
 }
-.button_greater-than {
+.button-position {
   top: 50%;
   position: absolute;
   right: 0;
@@ -198,7 +198,7 @@ body {
   padding: 16px 0 25px 0 !important;
 }
 .section-d {
-  padding: 5rem 0;
+  padding: 5rem 0 0 0;
 }
 .covid_container {
   padding-top: 50px;
@@ -271,6 +271,18 @@ body {
 .pro {
   height: 90px;
 }
+.button-center {
+  text-align: center;
+  position: relative;
+  top: -50px !important;
+}
+.heading-3 {
+  color: #151515;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-top: 52px;
+}
 .nav-item,
 .logo_middle,
 .button_less-than,
@@ -289,7 +301,7 @@ body {
 }
 .red_button:hover {
   background-color: #fff;
-  transition-duration: 1s;
+  transition-duration: 2s !important;
 }
 .fal:hover {
   color: #ed242e !important;
