@@ -334,6 +334,9 @@ body {
   display: flex;
   justify-content: space-between;
   max-width: 85%;
+  position: relative;
+  left: 67px;
+  top: -12px;
 }
 .doctor {
   /* flex: 1; */
@@ -433,6 +436,21 @@ form {
 .footer-container {
   display: flex;
   justify-content: center;
+  padding-top: 5rem;
+}
+.footer-item {
+  flex: 0 16.333%;
+}
+.footer-paragraph {
+  max-width: 100%;
+  font-size: medium;
+  line-height: 1.5;
+}
+.about {
+  flex: 0 22%;
+}
+.contact-us {
+  flex: 0 25%;
 }
 .footer-block {
   max-width: 83%;
@@ -453,10 +471,29 @@ ul {
   line-height: 18px;
   padding-bottom: 10px;
   display: block;
+  cursor: pointer;
 }
 .anchor {
   text-decoration: none;
   color: #979793;
+}
+.line-a {
+  border: 1px solid white;
+  margin: 0 19rem;
+  opacity: 0.8;
+}
+
+.last-block {
+  background-color: black;
+  margin: -14px;
+  margin-right: 0;
+  text-align: center;
+  padding: 90px 0 7px;
+}
+.last {
+  color: #d1d1d1;
+  font-size: 17px;
+  line-height: 22px;
 }
 .nav-item,
 .logo_middle,
@@ -489,4 +526,12 @@ ul {
   background-color: #ed242e;
   transition-duration: 1s;
   cursor: pointer;
+}
+.list:hover,
+.anchor:hover,
+.fa-map-marker-alt:hover,
+.fa-phone-alt:hover,
+.fa-envelope:hover {
+  color: red;
+  transition-duration: 1s;
 }
